@@ -1,11 +1,26 @@
 ---
 layout: default
-title: Mirka's Blog
+title: Curriculum Vitae
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+	<h1>{{ page.title  }}</h1>
+	<p><ul>
+		Vitajte pri sprievodcovi mojim zivotom.
+		Osobne udaje:
+		<ul>
+		<li>Meno: Mirka</li>
+		<li>Adresa: Stare Grunty 53, Bratislava 842 47</li>
+		<li>Datum narodenia: 25.04.2016</li>
+		<li>Kontakt: <a href="mailto:m.pomffyova@gmail.com">email</a></li>
+		</ul>
+		Par skoskych projektov:
+		<ul>
+		<li></li>
+		<li></li>
+		</ul>
+	</ul>	</p>
+	<ul class="projektiky">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% for projektov in site.projektiky %}
+	    <li><span>{{ projektov.date | date_to_string }}</span> » <a href="{{ projektov.url }}" title="{{ projektov.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>

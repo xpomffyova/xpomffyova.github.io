@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
-date: 2014-04-31
+title: "Mirka, Priestupny rok"
+date: 2016-02-29
 ---
 
-Well... Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be. 
+Kazdy z nas pozna pojem priestupny rok. Byva kazde styri roky a zatial co pre studentov az tak vela neznamena, pre samotny Februar to vsak znamena vela. Ma totizto o den viac. Ma 29 dni. A prave dnesny den je takymto dnom. Je 29.2.2016. Je vsak velmi malo ludi takych, ktori vedia o tom, ze existuje aj film s takymto nazvom. Ide o film [Priestupny rok](http://www.csfd.cz/film/260023-prestupny-rok/prehled/).

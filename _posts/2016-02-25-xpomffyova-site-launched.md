@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
-date: 2014-04-30
+title: "Mirka, Blogy"
+date: 2016-02-25
 ---
 
-Well... Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be. 
+Aky pekny den na pisanie blogov. Jednym z mojich prvych oficialnych je tento. Je o tom, ako som sa ucila pisat blogy. Pricom som vyuzila [Jekyll](http://jekyllrb.com) a zaroven [Markdown](https://daringfireball.net/projects/markdown/basics). Je to naozaj zabavne. 
