@@ -13,14 +13,11 @@ title: Curriculum Vitae
 		<li>Kontakt: <a href="mailto:m.pomffyova@gmail.com">email</a></li>
 		</ul>
 		Par skoskych projektov:
-		<ul>
-		<li></li>
-		<li></li>
-		</ul>
+		
 	</ul>	</p>
 	<ul class="projektiky">
 
 	  {% for projektov in site.projektiky %}
-	    <li><span>{{ projektov.date | date_to_string }}</span> » <a href="{{ projektov.url }}" title="{{ projektov.title }}">{{ post.title }}</a></li>
+	    <li><span>{{ projektov.date | date_to_string }}</span> » <a href="{{ projektov.url }}" title="{{ projektov.title }}">{{ projektov.title }}</a></li>
 	  {% endfor %}
 	</ul>
