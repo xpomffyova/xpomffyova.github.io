@@ -1,33 +1,107 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title >{{ page.title }}</title>
+			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
+			  <meta charset="utf-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">			
+			<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="/css/style.css">
 		</head>
 		<body>
+			<nav class="navbar navbar-default">
+		        <div class="container">
+		          <div class="navbar-header">
+		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+		              <span class="sr-only">Toggle navigation</span>
+		              <span class="icon-bar"></span>
+		              <span class="icon-bar"></span>
+		              <span class="icon-bar"></span>
+		          </button>
+		            <a class="navbar-brand" href="/">Home</a>
+		          </div>
+		          <div class="navbar-collapse collapse">
+		            <ul class="nav navbar-nav">
+		              <li><a href="/about">About</a></li>
+		              <li><a href="/cv">CV</a></li>
+		              <li><a href="/blog">Blog</a></li>		              
+		              <li><a href="/Webove_publikovanie">Webové publikovanie</a></li>
+		              <li><a href="/Sitemap">Sitemap (plugin)</a></li>
+		            </ul>
+		          </div><!--/.nav-collapse -->
+		        </div>
+	      	</nav>
 			
-	    		<ul>
-	        		<li type=square><a href="/">Home</a></li>
-		        	<li type=square><a href="/about">About</a></li>
-	        		<li type=square><a href="/cv">CV</a></li>
-	        		<li type=square><a href="/blog">Blog</a></li>
-					<li type=square><a href="/Webove_publikovanie">Webové publikovanie</a></li>
-	    		</ul>
+			<!--<div class="container">
 			
-			<div class="container">
 			
 			{{ content }}
 			
-			</div><!-- /.container -->
+			</div> /.container -->
 			
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				  <h3 class="panel-title">Lyzovanie</h3>
+				</div>
+				<div class="panel-body">
+				  <ul>
+				<img heigh=200 width=200 src="http://www.tikosport.sk/tsobr/ms_ly_invelky.jpg" alt="lyzovacka" title="Krasny adrenalin"/>
+				<li>
+				Jeden z najkrajsich adrenalinovych sportov, ake sa daju na Slovensku robit.
+				</li>
+				<li>
+				Ake su snezne podmienky pre lyzovanie sa da zistit velmi jednoducho. Napriklad aj na tejto stranke <a href="http://www.holidayinfo.sk/sk/SnehoveSpravy/">www.holidayinfo.sk</a>.
+				</li>
+				</ul>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				  <h3 class="panel-title">Plavanie</h3>
+				</div>
+				<div class="panel-body">
+				  <ul>
+			<img heigh=200 width=200 src="http://obrazky.4ever.sk/data/download/umenie/film-a-serial/jaws,-plavanie,-zena,-zralok-186381.jpg" alt="plavanie" title="Este vacsi adrenalin"/>
+				<li>
+				Plavanie je vraj dobrym odpocinkom... Najdu sa aj ludia, ktori si to nemyslia.
+				</li>
+			</ul>
+				</div>
+			</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				  <h3 class="panel-title">Hudba</h3>
+				</div>
+				<div class="panel-body">
+				  <ul>
+			<img heigh=200 width=200 src="http://www.koncert.hu/uploads/concerts/normal/koncert-20130422-3113-hdor03.jpg" alt="koncertovanie" title="Koncert"/>
+				<li>
+				Volne chvile sa daju prijemne stravit aj na koncertoch... 
+				</li>
+				<li>
+				Zoznamy udalosti maju stranky, ako napriklad:
+				</li>
+				<ul>
+				<li><a href="http://www.randalclub.eu/sk/page/2">www.randalclub.eu</a></li>
+				<li><a href="http://www.collosseum.sk/">www.collosseum.sk</a></li>
+				<li><a href="http://www.majestic.sk/program/">www.majestic.sk</a></li>
+				</ul>
+			</ul>
+				</div>
+			</div>
 			
 		</body>
-		<banner>
-				<ul>
-	        		<li><a href="mailto:xpomffyova@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/xpomffyova">github.com/xpomffyova</a></li>
-				</ul>
-		</banner>
+		<div class="panel panel-default">
+					<div class="panel-footer"><li><a href="mailto:m.pomffyova@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/xpomffyova">github.com/xpomffyova</a></li></div>
+				</div>
+		
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+				<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+				<script src="/js/bootstrap.min.js"></script>
 		
 	</html>
