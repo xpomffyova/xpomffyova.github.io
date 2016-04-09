@@ -1,0 +1,38 @@
+---
+layout: default
+title: Webove publikovanie
+---
+	<h1>{{ page.title }}</h1>
+	<h2>Zadanie 2</h2>
+	<h3>Transformácia vybraného dokumentu do formátu DocBook</h3>
+	<ul class="posts">
+	Druhé zadanie z predmetu Webové publikovanie je zamerané na spracovanie vybraného dokumentu, v mojom prípade bakalárskeho projektu, z pôvodného Word formátu do formátu DocBook a vygenerovanie cieľového súboru vo formáte PDF. 
+</ul>
+<ul class="posts">
+Tento dokument využíva rôzne konštrukcie.
+</ul>
+<ul class="posts">
+Štandardné členenie textu na kapitola, podkapitola, podpodkapitola, príloha je zabezpečené pomocou elementov book, chapter, section, vnorený section a elementu appendix.
+Generovanie obsahu dokumentu a zoznamov obrázkov a tabuliek je zabezpečené vďaka xsl transformácii <xsl:param name="generate.toc">
+book      title,toc,figure,table
+</xsl:param> 
+</ul>
+<ul class="posts">
+Zvýraznenie slov som spravila pomocou elementu emphasis, ktorému som nastavila atribút role="bold". Zvýraznenie členenia textu odrážkami som spravila pomocou elementu itemizedlist a viacerých vnorených elementov listitem. Číslované odrážky som dosiahla pomocou elementu orderedlist a viacerých vnorených elementov listitem.
+</ul>
+<ul class="posts">
+Pre zápis odkazov na iné časti vlastného dokumentu a odkazov na URL som využila elementy xref a link s nastaveným atribútom linkend na id elementu, na ktorý má odkaz ukazovať. Na odkazy na URL som v elemente link nastavila atribút url na adresu stránky.
+</ul>
+<ul class="posts">
+Poznámka pod čiarou vzniká vďaka elementu footnote.
+</ul>
+<ul class="posts">
+Zoznam použitej literatúry a zdrojov vznikol vďaka elementu bibliography a vnorených elementov bibliomixed. Odkazovala som sa na ne podobne ako na obrázky a časti textu, pomocou elementu xref a atribútu linkend. 
+</ul>
+<ul class="posts">
+Vloženie obrázku a tabuliek som spravila využitím elementov figure a table. Odkazovanie na ne a ich zoznamy som popísala už vyššie.
+</ul>
+<ul class="posts">
+Register pojmov s pojmami hierarchicky usporiadanými do dvoch úrovni som vložila elementami chapter a nepárovým elementom index, pričom pojmy som definovala priebežne v texte pomocou elementu indexterm a vnorených elementov primary a secondary.
+
+	</ul>
