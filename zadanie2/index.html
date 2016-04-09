@@ -13,9 +13,12 @@ Tento dokument využíva rôzne konštrukcie.
 </ul>
 <ul class="posts">
 Štandardné členenie textu na kapitola, podkapitola, podpodkapitola, príloha je zabezpečené pomocou elementov book, chapter, section, vnorený section a elementu appendix.
-Generovanie obsahu dokumentu a zoznamov obrázkov a tabuliek je zabezpečené vďaka xsl transformácii <xsl:param name="generate.toc">
+Generovanie obsahu dokumentu a zoznamov obrázkov a tabuliek je zabezpečené vďaka xsl transformácii: 
+{% highlight ruby %}
+<xsl:param name="generate.toc">
 book      title,toc,figure,table
 </xsl:param> 
+{% endhighlight %}
 </ul>
 <ul class="posts">
 Zvýraznenie slov som spravila pomocou elementu emphasis, ktorému som nastavila atribút role="bold". Zvýraznenie členenia textu odrážkami som spravila pomocou elementu itemizedlist a viacerých vnorených elementov listitem. Číslované odrážky som dosiahla pomocou elementu orderedlist a viacerých vnorených elementov listitem.
